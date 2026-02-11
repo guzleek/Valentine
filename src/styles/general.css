@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.general_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    margin-top: 15vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    animation: general_animation 1s ease;
+    overflow: hidden;
+    
+
+}
+
+
+.button-next{ 
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: #B53565;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: all .2s ease;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.whit-color{ 
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.button-next:hover{
+    opacity: 0.8;
+}
+
+.button-next:active {
+    top: 2px; 
+    
+}
+
+.text-wrapp{
+margin-bottom: 40px;
+font-size: 30px;
+}
+.img2{
+    margin-bottom: 20px;
+}
+
+.ball{ 
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #ebb7ca;
+    box-shadow:
+    0 0 20px rgba(255, 105, 180, 0.4),
+    0 0 40px rgba(255, 182, 193, 0.35),
+    0 0 60px rgba(255, 192, 203, 0.25);
+
+
+}
+.ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.valentine-text{ 
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.valentine-wrapp {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 80vh;
+    min-height: 15vh;
+    background-color: #eeeeee;
+    border-radius: 30px;
+
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;         
+}
+
+.te { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.te2{ 
+    margin-top: 1vh;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+}
+
+.f-text{
+    font-size: 30px;
+}
+
+@keyframes general_animation { 
+    0% {
+       padding-top: 100px;
+        opacity: 0;
+    }
+    80% { 
+         opacity: 1;
+
+    }
+
+  
+    
+}
